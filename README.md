@@ -1,4 +1,4 @@
-# Ejercicio_1_LV
+# Ejercicio_3_LV
 Realizar una prueba de carga del servicio de login, para efectos del ejercicio, se brindará el siguiente CURL:
 
 # Instrucciones para montar ambiente
