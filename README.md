@@ -1,5 +1,5 @@
 # Ejercicio_3_LV
-Realizar una prueba de carga del servicio de login, para efectos del ejercicio, se brindará el siguiente CURL:
+Realizar una prueba de carga del servicio de login
 
 # Instrucciones para montar ambiente
 
@@ -25,6 +25,10 @@ Para instalar k6 ejecutamos
     choco install k6
 
 La versión instalada es v1.3.0
+
+Para poder ejecutar la prueba se ejecuta el comando en CMD o por linea de comandos:
+
+    k6 run ejecutor.js
 
 # Metricas 
 
