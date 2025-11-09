@@ -1,0 +1,11 @@
+* La prueba tiene checks de respuesta exitosa y de tiempo mínimo de respuesta menor a 1.5 segundos.
+
+* la prueba está configurada con un TPS de 20 y la prueba corre durante 2 minuto.
+
+* El resultado de la prueba tiene un TPS de 19.91 valor que se solicita en el ejercio.
+
+* Se configuran umbrales para definir prueba exitosa o no y se observa que no pasa la prueba por tasa de errores,
+ya que generó un 17.15% de error y el umbral definido era 3%.
+
+* Por el lado de tiempo de respuesta, este sí supera el umbral definido de 1.5s ya que la prueba mostró 352.18ms 
+en el percentil 95.
